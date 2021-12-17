@@ -1,6 +1,7 @@
-#! Python3
-# Write a program that scans through your gmail account,finds all the
-# unsubscribe links in all your emails, and automatically opens them in a browser.
+"""
+This scripts will search through gmail for any emails that contains a unsubscribe link
+and output the direct unsub link for you to go to and unsub from.
+"""
 
 
 
