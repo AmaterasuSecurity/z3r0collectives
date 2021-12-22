@@ -3,7 +3,7 @@ This scripts will search through gmail for any emails that contains a unsubscrib
 and output the direct unsub link for you to go to and unsub from.
 """
 
-
+#!/opt/homebrew/bin/python3
 
 import imapclient
 import pyzmail
