@@ -7,7 +7,6 @@ and output the direct unsub link for you to go to and unsub from.
 
 import imapclient
 import pyzmail
-import webbrowser
 import bs4
 import getpass
 
