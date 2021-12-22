@@ -108,7 +108,7 @@ class Window(Tk):
 
        if audio_file_extension == 'mp3':
            audio_file = AudioSegment.from_file(Path(audio), format='mp3')
-           audio_file.export(f'{audio_file_name}.wav', format='wav')
+           audio_file.export(f'CCNA.wav', format='wav')
 
        source_file = f'{audio_file_name}.wav'
 
